@@ -119,6 +119,14 @@ Zum Ausprobieren/Anwenden muss lediglich die entsprechende css-Datei in ***custo
 
 # Screenshots
 
+## Normal
+
 <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot1.png" alt="Login" width="300"> <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot2.png" alt="Navbar" width="300">
 <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot3.png" alt="Main" width="600">
 <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot4.png" alt="Folder" width="600">
+
+---
+
+## Semi dark
+
+src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot5.png" alt="Main dark" width="600">
