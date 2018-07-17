@@ -80,7 +80,7 @@ Dazu muss man die Datei namens ***custom.css*** in den Ordner ***seahub-data/cus
 
     BRANDING_CSS = 'custom/custom.css'
 
-Zum Ändern der Farbe des Icons für Ordner (original orange) muss die Datei folder-192.png aus dem img-Ordner des Repos in den Seahub-Ordner ((***seafile-server-latest/seahub/media/img***)) auf dem Server kopiert und in folder-24.png umbenannt werden. Aber bitte vorher ein Backup der Originaldatei anlegen. Diese Änderung ist nicht persistent und ist nach einem Seafile Server Update verscheunden und muss dann neu durchgeführt werden.
+Zum Ändern der Farbe des Icons für Ordner (original orange) muss die Datei folder-192.png aus dem img-Ordner des Repos in den Seahub-Ordner (***seafile-server-latest/seahub/media/img***) auf dem Server kopiert und in folder-24.png umbenannt werden. Aber bitte vorher ein Backup der Originaldatei anlegen. Diese Änderung ist nicht persistent und ist nach einem Seafile Server Update verscheunden und muss dann neu durchgeführt werden.
 
 Wenn man das Favicon auch im passenden grün haben möchte, dann muss die Datei  ***favicon.png*** nach ***seahub-data/custom*** kopiert und die folgende Zeile zur ***conf/seahub-settings.py*** hinzugefügt werden:
     
@@ -129,4 +129,4 @@ Zum Ausprobieren/Anwenden muss lediglich die entsprechende css-Datei in ***custo
 
 ## Semi dark
 
-src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot5.png" alt="Main dark" width="600">
+<img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot5.png" alt="Main semi dark" width="600">
