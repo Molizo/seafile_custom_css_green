@@ -59,7 +59,7 @@ sudo systemctl start seahub.service
 
 ## Dark theme
 
-There are two different versions of a dark theme (beta):
+There are two different versions of a dark theme (**_beta, only for Seafile Server 6.3.2_**):
 
 1. semi-dark, where only the left panel is dark (***custom.css_semidark***)
 2. completely dark (***custom.css_fulldark***)
@@ -110,7 +110,7 @@ sudo systemctl start seahub.service
 
 ## Dunkles Thema
 
-Es gibt zwei verschiedene Versionen eines dunklen Themas (beta):
+Es gibt zwei verschiedene Versionen eines dunklen Themas (**_beta, nur für Seafile Server 6.3.2_**):
 
 1. halbdunkel, wobei nur das linke Panel dunkel ist (***custom.css_semidark***)
 2. komplett dunkel (***custom.css_fulldark***)
