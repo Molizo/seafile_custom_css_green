@@ -51,8 +51,9 @@ sudo systemctl start seahub.service
 
 ```css
 :root {
-    --darkMain: #008a3b; /*dark green*/
-    --lightMain: #e2f1e7; /*light green*/
+    --darkMain: #008a3b; /* dark green - Main color for elements */
+    --lightMain: #e2f1e7;/* light green - Second color, e. g. for some selected items */
+    --textLM: #000000;   /* black - Text color for elements with lightMain */
 }
 ```
 
