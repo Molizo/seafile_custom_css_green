@@ -64,12 +64,15 @@
 /* Variable for the two main colors */
 
 :root {
-    --darkMain: #008a3b;
-    /* Main color for elements */
-    --lightMain: #e2f1e7;
-    /* Second color, e. g. for some selected items */
+    --darkMain: #3CB371;
+    /* #008a3b - Main color for elements */
+    --lightMain: #C1FFC1;
+    /* #90a396 - Second color, e. g. for some selected items */
     --textLM: #000000;
     /* Text color for elements with lightMain */
+    --leftSide: #474747;
+    /* dark grey - Background color of the left side bar (use #FFFFFF for originasl white) */
+    --lefSideText: #D1D1D1; /* light grey - Text and icon color of the left side bar (original #333) */ 
 }
 
 /****** icon-xx ********/
@@ -565,8 +568,8 @@ h2 {
 
 h3 {
     font-size: 16px;
-    color: #322;
-    font-weight: normal;
+    color: var(--lefSideText);
+    font-weight: bold;
 }
 
 h4 {
@@ -1609,6 +1612,7 @@ textarea:-moz-placeholder {
     overflow: hidden;
     /* for ff */
     border-right: 1px solid #eee;
+    background: var(--leftSide);
 }
 
 .side-nav-con {
@@ -1624,12 +1628,12 @@ textarea:-moz-placeholder {
     display: flex;
     flex-shrink: 0;
     padding: 12px 20px 16px;
-    background: #f8f8f8;
+    background: var(--leftSide);
     border-top: 1px solid #eee;
 }
 
 .side-nav-footer .item {
-    color: #666;
+    color: var(--lefSideText);
     font-weight: normal;
     margin-right: 10px;
 }
@@ -1681,6 +1685,7 @@ textarea:-moz-placeholder {
     padding: 4px 4px 4px 0;
     color: #333;
     font-weight: normal;
+    color: var(--lefSideText);
 }
 
 .side-tabnav-tabs .tab a:focus {
@@ -1695,6 +1700,7 @@ textarea:-moz-placeholder {
 
 .side-tabnav-tabs .tab a:hover {
     background-color: var(--lightMain);
+    color: var(--textLM);
     text-decoration: none;
 }
 
@@ -1706,7 +1712,7 @@ textarea:-moz-placeholder {
     vertical-align: middle;
     font-size: 24px;
     line-height: 1;
-    color: #999;
+    color: var(--lefSideText);
 }
 
 .side-nav-toggle {
@@ -2726,7 +2732,7 @@ button.sf-dropdown-toggle:focus {
 
 .panel-top {
     padding: .5rem 1rem .25rem;
-    background: #f4f4f7;
+    background: var(--leftSide);
     border-bottom: 1px solid #e8e8e8;
     display: flex;
     flex-shrink: 0;
