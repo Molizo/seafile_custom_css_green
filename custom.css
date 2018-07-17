@@ -635,7 +635,7 @@ textarea:-moz-placeholder {/* for FF */
 /* Hide for mobile, show later */
 @media (min-width: 768px) {
     .side-nav {
-        position:fixed;
+        /*** position:fixed; ***/ /*** Fix for Desktop GUI ***/
         top:52px;
         bottom:0;
         z-index:1;
