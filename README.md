@@ -45,7 +45,8 @@ sudo systemctl start seahub.service
 ## Notes
 
 - the icons for folders are not changed and still have the color orange. I'm currently looking for a way to change the folder icon color so that the changes will be kept within a server update.
-- ***custom.css*** tested with Seafile Server 6.2.1
+- ***custom.css*** tested with Seafile Server 6.3.2
+- for Seafile Server 6.2.5 use the ***custom.css*** from the branch v6_2_5
 - At the top of the custom.css you will find two variables which define the main colors (dark and light). Here you can change the color to the color you want to use:
 
 ```css
@@ -72,7 +73,7 @@ Mit Hilfe der ***custom.css*** aus diesem Repository wird die Standardfarbe **or
 Dazu muss man die Datei namens ***custom.css*** in den Ordner ***seahub-data/custom*** kopieren und im conf-Ordner des Seafile-Servers die Datei seahub_settings.py angepassen, in dem folgender Eintrag hinzugefügt wird:
 
     BRANDING_CSS = 'custom/custom.css'
-    
+
 Zum Ändern der Farbe des Icons für Ordner (original orange) muss die Datei folder-192.png aus dem img-Ordner des Repos in den Seahub-Ordner ((***seafile-server-latest/seahub/media/img***)) auf dem Server kopiert und in folder-24.png umbenannt werden. Aber bitte vorher ein Backup der Originaldatei anlegen. Diese Änderung ist nicht persistent und ist nach einem Seafile Server Update verscheunden und muss dann neu durchgeführt werden.
 
 Wenn man das Favicon auch im passenden grün haben möchte, dann muss die Datei  ***favicon.png*** nach ***seahub-data/custom*** kopiert und die folgende Zeile zur ***conf/seahub-settings.py*** hinzugefügt werden:
@@ -90,7 +91,8 @@ sudo systemctl start seahub.service
 ## Sonstiges
 
 - die Icons'für Ordner und ähnliches sind nich nicht geändert und haben noch die Farbe orange. Ich suche zur Zeit noch eine Möglichkeit, dass so zu ändern, dass die Änderung bei einem Server-Update erhalten bleibt.
-- ***custom.css*** getestet mit Seafile Server 6.2.1
+- ***custom.css*** getestet mit Seafile Server 6.3.2
+- Für Seafile Server 6.2.5 bitte die ***custom.css*** aus dem Branch v6_2_5 benutzen
 - Am Anfang der custom.css sind die zwei Hauptfarben als Variable deklariert. Hier können die beiden Farben geändert werden, ohne sie im gesamten Dokument suchen zu müssen:
 
 ```css
