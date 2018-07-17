@@ -12,6 +12,8 @@
       * [Sonstiges](#sonstiges)
       * [Dunkles Thema](#dunkles-thema)
    * [Screenshots](#screenshots)
+      * [Normal](#normal)
+      * [Semi dark](#semi-dark)
 
 # English README: Custom css file for the Seafile server
 
