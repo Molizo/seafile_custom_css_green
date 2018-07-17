@@ -64,8 +64,9 @@
 /* Variable for the two main colors */
 
 :root {
-    --darkMain: #008a3b;
-    --lightMain: #e2f1e7;
+    --darkMain: #008a3b;   /* Main color for elements */
+    --lightMain: #e2f1e7;  /* Second color, e. g. for some selected items */
+    --textLM: #000000;     /* Text color for elements with lightMain */
 }
 
 /****** icon-xx ********/
@@ -1545,7 +1546,7 @@ textarea:-moz-placeholder {
     .nav-con-tabs-nav a:hover {
         text-decoration: none;
         background: var(--lightMain);
-        color: #000000;
+        color: var(--textLM);
     }
     .nav-con-tabs-nav .ui-state-active a,
     .nav-con-tabs-nav .ui-state-active a:hover {
@@ -2543,7 +2544,7 @@ button.sf-dropdown-toggle:focus {
 .sf-dropdown-menu a:hover {
     background: var(--lightMain);
     text-decoration: none;
-    color: #000000;
+    color: var(--textLM);
 }
 
 /**** discussions/comments ****/
@@ -3266,7 +3267,7 @@ button.sf-dropdown-toggle:focus {
 
 #my-usage,
 #quota-usage {
-    background: #ddd;
+    background: var(--darkMain);
 }
 
 #share-usage {
