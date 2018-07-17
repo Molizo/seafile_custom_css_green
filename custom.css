@@ -2543,7 +2543,7 @@ button.sf-dropdown-toggle:focus {
 .sf-dropdown-menu a:hover {
     background: var(--lightMain);
     text-decoration: none;
-    color: #fff;
+    color: #000000;
 }
 
 /**** discussions/comments ****/
@@ -4036,7 +4036,7 @@ button.sf-dropdown-toggle:focus {
 
 .upload-progress-bar .ui-progressbar-value {
     /*for progress*/
-    background: #e83;
+    background: var(--darkMain);
     margin: 0;
 }
 
