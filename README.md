@@ -59,7 +59,12 @@ sudo systemctl start seahub.service
 
 ## Dark theme
 
-You will find a beta version of a dark theme for Seafile Server 6.3.2 in the branch [***v6_3_2_dark_side***](../../tree/v6_3_2_dark_side) of this repo.
+There are two different versions of a dark theme (beta):
+
+1. semi-dark, where only the left panel is dark (***custom.css_semidark***)
+2. completely dark (***custom.css_fulldark***)
+
+To try it out/apply, simply rename the corresponding css file to ***custom.css*** and copy it to the ***seahub-data/custom/*** directory. 
 
 # Deutsche README: Eigene css-Datei für den Seafile-Server
 
@@ -105,7 +110,12 @@ sudo systemctl start seahub.service
 
 ## Dunkles Thema
 
-Eine Beta-Version des dunklen Themas für Seafile Server 6.3.2 ist im Branch [***v6_3_2_dark_side***](../../tree/v6_3_2_dark_side) dieses Repos zu finden.
+Es gibt zwei verschiedene Versionen eines dunklen Themas (beta):
+
+1. halbdunkel, wobei nur das linke Panel dunkel ist (***custom.css_semidark***)
+2. komplett dunkel (***custom.css_fulldark***)
+
+Zum Ausprobieren/Anwenden muss lediglich die entsprechende css-Datei in ***custom.css*** umbenannt und in das Verzeichnis ***seahub-data/custom/*** kopiert werden. 
 
 # Screenshots
 
