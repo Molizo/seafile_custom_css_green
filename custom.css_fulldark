@@ -3193,12 +3193,13 @@ button.sf-dropdown-toggle:focus {
 }
 
 .login-panel {
-    background: #f5f6f7;
+    background: var(--leftSide);
     border-radius: 3px;
     padding: 20px 60px;
     width: 390px;
     margin: 0 auto;
     box-shadow: 0 0 8px #a7a6a9;
+    color: var(--lefSideText);         /* original empty */
 }
 
 @media (max-width:389px) {
