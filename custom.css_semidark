@@ -2234,10 +2234,12 @@ textarea:-moz-placeholder {
     border-radius: 4px;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
+    color: var(--lefSideText);  /*original empty */
 }
 
 #simplemodal-container a {
     font-weight: normal;
+    color: var(--lefSideText);  /* original empty */
 }
 
 #simplemodal-container table {

@@ -53,9 +53,11 @@ sudo systemctl start seahub.service
 
 ```css
 :root {
-    --darkMain: #008a3b; /* dark green - Main color for elements */
-    --lightMain: #e2f1e7;/* light green - Second color, e. g. for some selected items */
-    --textLM: #000000;   /* black - Text color for elements with lightMain */
+    --darkMain: #3CB371;    /* #008a3b - Main color for elements */
+    --lightMain: #C1FFC1;   /* #90a396 - Second color, e. g. for some selected items */
+    --textLM: #000000;      /* Text color for elements with lightMain */
+    --leftSide: #474747;    /* dark grey - Background color of the left side bar (use #FFFFFF for originasl white) */
+    --lefSideText: #D1D1D1; /* light grey - Text and icon color of the left side bar (original #333) */ 
 }
 ```
 
@@ -102,8 +104,11 @@ sudo systemctl start seahub.service
 
 ```css
 :root {
-    --darkMain: #008a3b; /*dark green*/
-    --lightMain: #e2f1e7; /*light green*/
+    --darkMain: #3CB371;    /* #008a3b - Main color for elements */
+    --lightMain: #C1FFC1;   /* #90a396 - Second color, e. g. for some selected items */
+    --textLM: #000000;      /* Text color for elements with lightMain */
+    --leftSide: #474747;    /* dark grey - Background color of the left side bar (use #FFFFFF for originasl white) */
+    --lefSideText: #D1D1D1; /* light grey - Text and icon color of the left side bar (original #333) */ 
 }
 ```
 
