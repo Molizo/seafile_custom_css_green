@@ -952,7 +952,7 @@ table img {
 /* highlight */
 
 .tip {
-    color: #808080;
+    color: var(--lefSideText);
     font-size: 12px;
 }
 
@@ -2228,7 +2228,8 @@ textarea:-moz-placeholder {
 
 #simplemodal-container {
     padding: 20px;
-    background-color: #fcfcfc;
+   /* background-color: #fcfcfc; */
+   background: var(--leftSide);
     -moz-border-radius: 4px;
     border-radius: 4px;
     -webkit-box-sizing: content-box;
@@ -3089,6 +3090,8 @@ button.sf-dropdown-toggle:focus {
     right: 0;
     top: 52px;
     font-size: 13px;
+    color: var(--lefSideText);
+    background: var(--leftSide);
 }
 
 .account-popup .outer-caret {
@@ -3107,13 +3110,14 @@ button.sf-dropdown-toggle:focus {
 }
 
 .account-popup a.item {
-    color: #333;
+    color: var(--lefSideText);
     font-weight: normal;
 }
 
 .account-popup a.item:hover {
-    background: #fafafa;
+    background: var(--lightMain);
     text-decoration: none;
+    color: var(--textLM);
 }
 
 #account .manage {
@@ -3298,6 +3302,7 @@ button.sf-dropdown-toggle:focus {
 
 #repo-create-form {
     padding: 0 5px;
+    color: var(--lefSideText);    /* original empty */
 }
 
 #repo-create-form .select {
@@ -5522,6 +5527,8 @@ img.thumbnail {
     min-width: 280px;
     padding-top: 20px;
     text-align: center;
+    background: var(--leftSide);    /*original empty */
+    color: var(--lefSideText);      /*original empty */
 }
 
 /* two-factor-auth */
