@@ -132,4 +132,4 @@ Zum Ausprobieren/Anwenden muss lediglich die entsprechende css-Datei in ***custo
 ## Semi dark
 
 <img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot5.png" alt="Main semi dark" width="600">
-<img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot6.png" alt="Folder" width="600">
+<img src="https://raw.githubusercontent.com/focmb/seafile_custom_css_green/master/screenshots/screenshot6.png" alt="Login" width="300">
