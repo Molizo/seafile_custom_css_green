@@ -2988,7 +2988,7 @@ button.sf-dropdown-toggle:focus {
 #notifications .sf2-icon-bell {
     font-size: 24px;
     line-height: 1;
-    color: #999;
+    color: var(--lefSideText); /* original #999 */
 }
 
 #notifications .num {
@@ -3006,6 +3006,7 @@ button.sf-dropdown-toggle:focus {
 #notice-popover {
     top: 38px;
     right: -16px;
+    background: var(--leftSide); /original empty */
 }
 
 #notice-popover .outer-caret {
@@ -3019,6 +3020,7 @@ button.sf-dropdown-toggle:focus {
 #notice-popover li {
     padding: 9px 0 3px;
     border-bottom: 1px solid #dfdfe1;
+    color: var(--lefSideText);    /* original empty */
 }
 
 #notice-popover li.unread {
@@ -3039,7 +3041,7 @@ button.sf-dropdown-toggle:focus {
 }
 
 #notice-popover .time {
-    color: #999;
+    color: var(--lefSideText); /* original #999 */
     text-align: right;
     margin: 0;
     clear: both;
@@ -3049,7 +3051,7 @@ button.sf-dropdown-toggle:focus {
     display: block;
     padding: 7px 0;
     text-align: center;
-    color: #a4a4a4;
+    color: var(--lefSideText);    /* #a4a4a4 */
 }
 
 #account {
