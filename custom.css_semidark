@@ -1510,13 +1510,12 @@ textarea:-moz-placeholder {
     .nav-con-tabs-nav a {
         display: inline-block;
         padding: 3px 3px;
-        color: #747476;
+        color: var(--lefSideText);  /* original #747476 */
         font-size: 14px;
         outline: none;
         /* to overwrite webkit ':focus' style */
         text-decoration: none;
         border-bottom: 3px solid transparent;
-        color: var(--lefSideText);    /* original empty */
     }
     .nav-con-tabs-nav a:hover,
     .nav-con-tabs-nav .ui-state-active a,
@@ -1544,7 +1543,7 @@ textarea:-moz-placeholder {
         display: block;
         padding: 5px 4px;
         border-radius: 3px;
-        color: #747476;
+        color: var(--lefSideText);  /* original #747476 */
         font-size: 14px;
         outline: none;
         /* to overwrite webkit ':focus' style */
