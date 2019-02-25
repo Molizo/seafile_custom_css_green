@@ -1,4 +1,4 @@
-# Content/Inhalt
+# Content
 
 * [Content/Inhalt](#contentinhalt)
    * [Custom css file for the Seafile server](#custom-css-file-for-the-seafile-server)
@@ -31,7 +31,7 @@ Copy the file ***custom.css*** from the ***light*** or ***semidark*** folder  to
 To change the icon color for folder icons you have to copy the file folder-192.png from the img folder of this repo into the seahub folder (***seafile-server-latest/seahub/media/img***) on your server and rename it to folder-24.png. But before please create a backup of your original file. After an update of the Seafile server this change will be reverted and you have to copy it again.
 
 If you want to use the green Favicon copy the ***favicon.png*** to ***seahub-data/custom*** and add the following line to your ***conf/seahub-settings.py***:
-    
+
     FAVICON_PATH = 'custom/favicon.png'
 
 Finally, the Seafile server (and Seahub) must be restarted. For example in Debian Jessie this can be done with:
@@ -56,7 +56,7 @@ sudo systemctl start seahub.service
     --lightMain: #C1FFC1;   /* #90a396 - Second color, e. g. for some selected items */
     --textLM: #000000;      /* Text color for elements with lightMain */
     --leftSide: #474747;    /* dark grey - Background color of the left side bar (use #FFFFFF for originasl white) */
-    --lefSideText: #D1D1D1; /* light grey - Text and icon color of the left side bar (original #333) */ 
+    --lefSideText: #D1D1D1; /* light grey - Text and icon color of the left side bar (original #333) */
 }
 ```
 
